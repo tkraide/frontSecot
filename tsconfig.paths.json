@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#asset/*": ["./src/img/*"],
+      "#Components/*": ["./src/Components/*"],
+      "#root/*": ["./src/*"]
+    }
+  }
+}

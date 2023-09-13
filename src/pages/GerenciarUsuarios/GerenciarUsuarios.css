@@ -1,0 +1,164 @@
+/*S vermelho em Secot*/
+#red-S {
+    color: #AF0000;
+  }
+  
+  .header-container {
+    max-width: 84vw;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .header-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  
+  .header-menu {
+    display: flex;
+  }
+  
+  .header-menu-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-login {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .header-menu ul li {
+    padding: 16px 0px;
+    position: relative;
+    font-size: 16px;
+    color: #AF0000;
+  }
+  
+  .header-menu ul li::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: #AF0000;
+    margin-top: 4px;
+    transition: 0.2s;
+    position: absolute;
+  }
+  
+  .header-menu ul li:hover::after {
+    width: 100%;
+  }
+  
+  .login-link {
+    color: #AF0000;
+  }
+  
+  .login-link:hover {
+    color: #880101;
+  }
+  
+  .create-acc {
+    padding: 10px 30px;
+    border: 2px #AF0000 solid;
+    color: #AF0000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    border-radius: 12px;
+    background: #ffffff;
+    transition: 0.2s;
+  }
+  
+  .create-acc:hover {
+    background: #AF0000;
+    color: #ffffff;
+  }
+  
+  .hamburguer-button {
+    display: none;
+  }
+  
+  .hamburguer-button button {
+    cursor: pointer;
+  }
+  
+  .hamburguer-items {
+    display: none;
+    color: var(--dark, #0F241D);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 300px;
+    border: solid 1px #AF0000;
+    border-radius: 6px;
+  }
+  
+  .hamburguer-items span {
+    margin-bottom: 15px;
+  }
+  
+  .hamburguer-items span:first-child {
+    margin-top: 15px; 
+  }
+  
+  .on {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  @media (max-width: 1100px) {
+    .header-menu {
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .header-icon h2 {
+      font-size: 26px;
+    }
+  
+    .header-icon, .header-login {
+      gap: 10px;
+    }
+    
+    .login-link {
+      font-size: 14px;
+    }
+    
+    .create-acc {
+      padding: 7px 25px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .header-login {
+      display: none;
+    }
+  
+    .hamburguer-button {
+      display: block;
+    }
+  
+    .hamburguer-items {
+      background-color: #ffffff;
+      position: absolute;
+      right: 30px;
+      top: 55px;
+      z-index: 1;
+    }
+  }

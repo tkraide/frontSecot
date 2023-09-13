@@ -1,0 +1,166 @@
+{
+  "pessoas": [
+    {
+      "id": 3,
+      "nomeCompleto": "Carlos Silva",
+      "email": "carlos@gmail.com",
+      "ra": 802392,
+      "roles": "2",
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ]
+    },
+    {
+      "id": 5,
+      "nomeCompleto": "Alfredo Pereira",
+      "email": "alfredo@gmail.com",
+      "ra": 802393,
+      "roles": "2",
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ]
+    },
+    {
+      "id": 6,
+      "nomeCompleto": "Juca Silva",
+      "email": "Juca@gmail.com",
+      "ra": 802394,
+      "roles": "2",
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ]
+    },
+    {
+      "id": 7,
+      "nomeCompleto": "Maria Silva",
+      "email": "maria@gmail.com",
+      "ra": 802382,
+      "roles": "2",
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ]
+    },
+    {
+      "id": 8,
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "email": "carlos@gmail.com",
+      "ra": 802383,
+      "roles": "2",
+      "nomeCompleto": "Carlos Silva"
+    },
+    {
+      "id": 9,
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "email": "pedro@gmail.com",
+      "ra": 802384,
+      "roles": "2",
+      "nomeCompleto": "Pedro Silva"
+    },
+    {
+      "id": 10,
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "email": "alfredo@gmail.com",
+      "ra": 802385,
+      "roles": "2",
+      "nomeCompleto": "Alfredo Silva"
+    },
+    {
+      "id": 11,
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "email": "alfredo@gmail.com",
+      "ra": 802386,
+      "roles": "2",
+      "nomeCompleto": "Alfredo Silva"
+    },
+    {
+      "id": 12,
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "email": "Juca@gmail.com",
+      "ra": 802387,
+      "roles": "2",
+      "nomeCompleto": "Juca Silva"
+    },
+    {
+      "id": 13,
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "email": "maria@gmail.com",
+      "ra": 802388,
+      "roles": "2",
+      "nomeCompleto": "Maria Silva"
+    },
+    {
+      "id": 14,
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "email": "carlos@gmail.com",
+      "ra": 802389,
+      "roles": "2",
+      "nomeCompleto": "Carlos Silva"
+    },
+    {
+      "id": 15,
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "email": "pedro@gmail.com",
+      "ra": 802390,
+      "roles": "2",
+      "nomeCompleto": "Pedro Silva"
+    },
+    {
+      "id": 16,
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "email": "alfredo@gmail.com",
+      "ra": 802391,
+      "roles": "2",
+      "nomeCompleto": "Alfredo Silva"
+    },
+    {
+      "nomeCompleto": "Ana Silva",
+      "email": "ana@gmail.com",
+      "ra": 802395,
+      "roles": "2",
+      "certificados": [
+        "src/img/certificados/certificado.pdf",
+        "src/img/certificados/certificado2.pdf"
+      ],
+      "id": 17
+    },
+    {
+      "id": 18,
+      "nomeCompleto": "Thiago kraide",
+      "email": "thiago@ufscar.br",
+      "ra": 792246,
+      "roles": "2"
+    }
+  ],
+  "excluidos": []
+}

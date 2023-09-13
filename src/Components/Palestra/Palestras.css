@@ -1,0 +1,94 @@
+.card{
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    width: 100%;
+    background-color: #AF0000;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+    border: 2px solid #eeeeee;
+    font-family: 'Poppins', sans-serif;
+  }
+.card:hover{
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(112,112,112,0.7);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(112,112,112,0.7);
+  box-shadow: 4px 4px 5px 0px rgba(112,112,112,0.7);
+}
+  
+.card h3{
+    padding: 20px;
+    min-height: 90px;
+    margin: auto 0;
+}
+.card h3:hover{
+    cursor: pointer;
+}
+  
+.card .horario{
+    padding: 2px 0 2px 5px;
+    margin: 0;
+    text-align: left;
+    background-color: rgb(250, 250, 250);
+    color: #AF0000;
+    display: inline-flex;
+    width: calc(100% - 5px);
+}
+.card .horario:hover{
+    cursor: pointer;
+}
+.card .local{
+    padding: 2px 0 3px 5px;
+    margin: 0;
+    text-align: left;
+    background-color: rgb(250, 250, 250);
+    color: #AF0000;
+    border-radius: 0 0 7px 7px;
+    display: inline-flex;
+    width: calc(100% - 5px);
+}
+.card .local a{
+    text-decoration: none;
+    color: black;
+}
+.card .local a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.btn-modal{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    background-color: #880101;
+    width: 100%;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+  }
+  .btn-modal:focus{
+    background-color: #6b0000;
+  }
+  .btn-modal:hover{
+    background-color: #6b0000;
+  }
+
+
+  @media(max-width: 969px){
+    .card h3{
+      min-height: 112px;
+    }
+  }
+  @media(width: 625px){
+    .card h3{
+      min-height: 120px;
+    }
+  }
+  @media(max-width: 767px){
+    .card{
+      flex: 0 0 calc(100% - 20px);
+      max-width: calc(100% - 20px);
+    }
+    .card h3{
+      min-height: 112px;
+    }
+  
+  }

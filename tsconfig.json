@@ -1,0 +1,54 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "outDir": "./build",
+    "rootDir": "src",
+    "allowJs": true,
+    "esModuleInterop": true,
+
+    "module": "commonjs",
+    "target": "ES2022",
+    "tsBuildInfoFile": "./build/tsconfig.tsbuildinfo",
+    "moduleResolution": "Node",
+
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2021",
+      "DOM"
+    ],
+    "sourceMap": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+
+    // Type Checking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitAny": false, // change to true when code base is fully ported to TS
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    //noPropertyAccessFromIndexSignature
+    //noUncheckedIndexedAccess
+    //noUnusedLocals: not defined. managed by eslint
+    //noUnusedParameters: not defined. managed by eslint
+    //strict: setting each one separately
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    //useUnknownInCatchVariables
+
+    // Modules
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "**/*.spec.ts"]
+}
